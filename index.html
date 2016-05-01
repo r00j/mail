@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+    <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+    <title>Mail</title>
+    <style type="text/css">
+        body {
+            font-family: 'PT Sans', sans-serif;
+            height:auto;
+        }
+        .wrapper {
+            min-width: 400px;
+            max-width:780px;
+            margin: auto auto 20px;
+            min-height: 100%;
+            height: auto;
+        }
+        #ref {
+            text-align: right;
+        }
+        .about_block {
+            display: block;
+            padding: 20px 0;
+        }
+        .about_image,
+        .about_text {
+            display: table-cell;
+            vertical-align: top;
+        }
+        .about_text {
+            padding-left: 20px;
+        }
+        .h {
+            text-transform: uppercase;
+            color: blueviolet;
+            margin: 0;
+            text-decoration: none;
+        }
+        #button {
+            border-radius: 10px;
+            width: 160px;
+            height: 44px;
+            background: #FDFDFE;
+            border: solid #752EA3;
+        }
+        .thumbnails {
+            margin: -3em 0.5em 0 -2em;
+            text-align: center;
+        }
+        .thumbnail {
+            text-decoration: none;
+            display: -moz-inline-box;
+            display: inline-block;
+            text-align: left;
+            margin: 3em 1em 0;
+        }
+        .thumbnail_contact{
+            text-decoration: none;
+            display: -moz-inline-box;
+            display: inline-block;
+            text-align: left;
+            margin: 3em 1em 0;
+
+        }
+        .thumbnail .r
+        {
+            width: 14em;
+            float: left;
+            text-align: justify;
+        }
+        .text {
+            margin: 1em;
+        }
+        .header {
+            text-align: left;
+            text-transform: uppercase;
+        }
+        .header_big {
+            margin-top: 30px;
+            font-size: 120%;
+            color: #752EA3;
+        }
+        .header_small {
+            margin-top: 5px;
+            font-size: 100%;
+            color: darkgrey;
+        }
+        .header_coaches {
+            padding-top: 20px;
+            margin:auto;
+            text-align: center;
+            font-size: 100%;
+            color: #181C1F;
+            text-transform: uppercase;
+        }
+        .contacts {
+            text-align:center;
+            font-size: 110%;
+            color: #181C1F;
+        }
+
+        .thumbnail {
+            margin: 3em 1em 0;
+        }
+        .footer {
+            position: relative;
+            width: 775px;
+        }
+        .img_footer {
+            display: block;
+            border: none;
+        }
+        .footer_text {
+            display: block;
+            padding: 15px 30px 30px 450px;
+            position: absolute;
+            bottom: 0;
+            text-align: right;
+            color: #ececec;
+
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div id="ref">
+        <span>If you have any problems viewing this email
+            <a href="index.html" style="color: #752EA3">click here.
+            </a>
+        </span>
+    </div>
+ <div><img src="banner.jpg" alt="banner">
+    </div>
+        <div class="about_block">
+            <div class="about_image"><img src="About.jpg" alt="About" width="473" height="223"/>
+            </div>
+            <div class="about_text">
+            <span class="h">ELEGANCE & MOTION
+            </span>
+                <p>Rhythmic gymnastics combines the elements of ballet, dance, acrobatics and develops essential skills that will help your child to successfully evolve and build her future.
+                </p>
+            <button id="button"><a class="h" href="index.html">more information</a></button>
+            </div>
+        </div>
+    <div class="thumbnails">
+        <ins class="thumbnail">
+            <div class="r">
+            <img src="vision.jpg" alt="vision"><br/>
+            <div class="text"><p>We believe that every child carries a natural gift, that needs to be carefully developed and assimilated.</p></div>
+            </div>
+        </ins>
+<ins class="thumbnail">
+    <div class="r">
+        <img src="team.jpg" alt="team"><br/>
+        <div class="text"><p>International coaches, with a vast experience in rhythmic gymnastics will do their best  to find the champion in your child.</p></div>
+    </div>
+</ins>
+        <ins class="thumbnail">
+            <div class="r">
+                <img src="benefits.jpg" alt="benefit"><br>
+                <div class="text"><p>We provide a unique chance to introduce your kid to the spectacular world of elegance and the grace of gymnastics.</p></div>
+            </div>
+        </ins>
+    </div>
+    <!------  <div id="header">----------------------------
+          <div class="header_big">achievements</div>
+          <div class="header_small">under our supervision</div>
+      </div>
+  <div class="thumbnails">
+          <div class="thumbnail" style="">-----define img size=define margin
+          <img src="achiev-image.jpg" alt="ach1">
+          <img src="achiev-image.jpg" alt="ach2">
+          <img src="achiev-image.jpg" alt="ach3">
+          <img src="achiev-image.jpg" alt="ach4">
+      </div>
+      </div> -------------------------------------------------------------------------->
+    <div class="header">
+        <div class="header_big">coaches
+        </div>
+        <div class="header_small">in details
+        </div>
+    </div>
+    <div class="thumbnails">
+        <ins class="thumbnail">
+            <div class="r">
+                <div class="header_coaches"><strong>PAULINA NIKOLOVA</strong></div>
+                <div class="text"><p>A former world champion and a former player in Levski club.  Mrs. Paulina has been in egypt for more that 15 years and helped Gezira Club to maintain top positions in Rhythmic Gymnastics Competitions.</p></div>
+            </div>
+        </ins>
+        <ins class="thumbnail">
+            <div class="r">
+                <div class="header_coaches"><strong>ASIA IVANOVA</strong></div>
+                <div class="text"><p>A former world champion and a former player in Levski club. Mrs. Paulina has been in egypt for more that 15 years and helped Gezira Club to maintain top positions in Rhythmic Gymnastics Competitions.</p></div>
+            </div>
+        </ins>
+        <ins class="thumbnail">
+            <div class="r">
+                <div class="header_coaches"><strong>PAOLA PRIKHODKO</strong></div>
+                <div class="text"><p>A daughter of Mrs. Paulina and an ultimate winner of many national competitions, became a professional trainer 5 years ago directing all her experience into the kids she is training.</p></div>
+            </div>
+        </ins>
+    </div>
+    <div class="thumbnails">
+        <ins class="thumbnail_contact">
+            <div class="r">
+                <div class="contacts">+20 1219512451
+                </div>
+            </div>
+        </ins>
+        <ins class="thumbnail_contact">
+            <div class="r">
+                <div class="contacts">sales@infinitysports-eg.com</div>
+                </div>
+        </ins>
+        <ins class="thumbnail_contact">
+            <div class="r">
+                <div class="contacts">facebook.com/grace.rga</div>
+            </div>
+        </ins>
+    </div>
+    <div class="footer"><img src="footer.jpg" class="img_footer" alt="footer"><span class="footer_text">Grace Rhythmic Gymnastics Academy British International School<br>• 6th of October • Egypt <br>Mobile: +20 12 1951 2451 sales@infinitysports-eg.com
+    </span> </div>
+</div>
+</body>
+</html>
